@@ -1,0 +1,16 @@
+{
+  "contenidoStr": "{\n  \"name\": \"3-backend-con-nodejs-resuelto\",\n  \"version\": \"1.0.0\",\n  \"main\": \"actividad-1.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"description\": \"\"\n}\n",
+  "contenidoObj": {
+    "name": "3-backend-con-nodejs-resuelto",
+    "version": "1.0.0",
+    "main": "actividad-1.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+  },
+  "size": 1992
+}
