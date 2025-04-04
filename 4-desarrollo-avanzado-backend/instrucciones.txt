@@ -1,0 +1,35 @@
+1. Iniciamos proyecto con comando 'npm init --yes'
+2. Instalamos modulo de express para levantar nuestro servidor con comando 'npm install express'
+2.a Agregamos la propiedad { "type": "module" } a nuestro package.json
+2.b Creamos nuestro archivo server.js
+3. Importamos el modulo de express en nuestro codigo:
+    import "express" from "express";
+4. Inicializamos nuestro servidor ejecutando express:
+    const server = express();
+5. Ponemos a escuchar el servidor en el puerto deseado:
+    server.lister(8080, () => console.log("Servidor levantado"))
+
+
+
+HERRAMIENTAS A UTILIZAR:
+- NODEMON:
+        Nos va a permitir levantar el servidor, y, ante cualquier cambio que escuche en el archivo, se reinicie automaticamente.
+    ej: "nodemon index.js"
+ ** Se puede remplazar por "node --watch index.js"
+
+- POSTMAN:
+    Software de prueba para testeo de apis. Nos va a permitir probar nuestros endpoints y hacer distintas request (GET, POST, PUT, etc)
+
+
+
+
+CREAMOS SCRIPT PARA CORRER CON COMANDOS ESPECIFICOS:
+En el package.json, agregamos los siguientes scripts:
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js",
+    "dev": "node --watch ./server.js"
+  },
+
+npm run dev;    -> modo de desarrollo
+npm start;    -> modo produccion
