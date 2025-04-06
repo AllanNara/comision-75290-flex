@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unidad-5</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h2>Crear nuevo usuario</h2>
+    <form action="/api/users" method="post" enctype="multipart/form-data">
+      <input type="name" name="name" placeholder="Nombre de usuario" />
+      <input type="file" name="file" value="Foto de perfil" />
+      <input type="submit" name="submit" value="Enviar" />
+    </form>
+    <h2>Crear nueva mascota</h2>
+    <form action="/api/pets" method="post" enctype="multipart/form-data">
+      <input type="name" name="name" placeholder="Nombre de mascota" />
+      <input type="file" name="file" value="Foto de tu mascota" />
+      <input type="submit" name="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
