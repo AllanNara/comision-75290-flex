@@ -1,0 +1,20 @@
+[
+  {
+    "title": "producto1",
+    "description": "producto nro 1",
+    "price": 200,
+    "thumbnail": "IMG1",
+    "code": "A001",
+    "stock": 20,
+    "id": 1
+  },
+  {
+    "title": "producto nuevo",
+    "description": "producto nro 2",
+    "price": 300,
+    "thumbnail": "IMG2",
+    "code": "A003",
+    "stock": 1000,
+    "id": 2
+  }
+]
