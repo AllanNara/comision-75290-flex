@@ -1,0 +1,16 @@
+OBJETIVOS DE LA CLASE:
+Aprenderemos a implementar:
+1. Mongo Atlas --> Como tener nuestra base de datos en la nube
+2. Mongoose --> Como integrar MongoDB en nuestro codigo
+
+Extras:
+1. Dotenv -> Proteger nuestras credenciales secretas
+2. Valores default -> Utilizar alternativas a las variables de entrono.
+3. Crear una aplicacion desde cero.
+
+
+
+// -> Cluster Mongo Atlas
+// ---> Base de datos
+// ------> Colecciones
+// ----------> Documentos

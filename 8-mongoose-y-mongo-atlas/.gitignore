@@ -1,0 +1,5 @@
+# librerias descargadas desde package.json 
+node_modules/
+
+# archivo de variables privadas
+.env
